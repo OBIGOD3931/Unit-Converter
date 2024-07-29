@@ -1,0 +1,84 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 350px;
+    max-width: 100%;
+    text-align: center;
+}
+
+.header {
+    background-color: #6c63ff;
+    color: white;
+    padding: 20px;
+    border-bottom: 1px solid #ddd;
+}
+
+.header h1 {
+    margin: 0 0 20px;
+    font-size: 1.5em;
+}
+
+.input-box {
+    margin-bottom: 20px;
+}
+
+.input-box input {
+    width: 80px;
+    padding: 10px;
+    font-size: 0.8em;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+#convertButton {
+    background-color: white;
+    color: #6c63ff;
+    border: 1px solid #6c63ff;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#convertButton:hover {
+    background-color: #6c63ff;
+    color: white;
+}
+
+.content {
+    padding: 20px;
+}
+
+.metric {
+    background-color: #f4f4f4;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.metric h2 {
+    margin-top: 0;
+    color: #6c63ff;
+    font-size: 1.2em;
+}
+
+.metric p {
+    margin: 10px 0 0;
+    color: #555;
+}
